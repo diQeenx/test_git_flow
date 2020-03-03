@@ -1,0 +1,6 @@
+db:
+	users: login, password
+	user_info: first_name, last_name, birthday, mobile_phone, home_phone, country, address
+	roles: administrator, user
+	permission: user_id, role_id
+	time_tracking: user_id, date, start_time, end_time, state -> {'on', 'off'}
